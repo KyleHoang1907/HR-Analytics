@@ -16,4 +16,6 @@ select id,Social_drinker,Social_smoker,Body_mass_index,Absenteeism_time_in_hours
   ### 2. To find the wage increase for non smoker employees
 Set query as below:
 select count (*) as nonsmokers from Absenteeism_at_work where Social_smoker =0;
+
+ We have nonsmokers: 686
 #### This query found out there are 686 non smoker employees eligible for insurance budget of $983,221 USD. assuming 5 working days with 8 working hour and 52 weeks, per employee entitle for an additional $0.68 wage raise per hour.
